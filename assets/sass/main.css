@@ -496,6 +496,7 @@ a {
 }
 .section-form .section-form__content .content__informations .informations__cards .cards__card .card__img {
   width: 40%;
+  min-width: 40px;
   max-width: 60px;
   position: relative;
   height: 40px;
@@ -817,7 +818,7 @@ a {
 .footer div .footer__content .content__top .content__address h5 {
   font-size: 1.1em;
   font-weight: 400;
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 .footer div .footer__content .content__top .content__address address {
   font-style: normal;
