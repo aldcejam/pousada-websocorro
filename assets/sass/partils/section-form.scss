@@ -70,7 +70,6 @@
                 p {
                     color: #fff;
                     font-size: 1.1em;
-                    font-size: 300;
                     line-height: 1.5em;
                 }
             }
@@ -215,18 +214,14 @@
                     }
 
                     input {
-                        padding: 5px;
+                        padding: 14px 5px 0 0;
                         background-color: transparent;
                         outline: none;
                         border: none;
                         color: #fff;
                         max-height: 50px;
-
-                        @media(max-width:600px) {
-                            & {
-                                font-size: 100%;
-                            }
-                        }
+                        width: 100%;
+                        font-size: .8em;
                     }
 
                     input[type="date"]::-webkit-calendar-picker-indicator {
@@ -297,7 +292,6 @@
 
                 input {
                     padding: 5px;
-                    font-size: 1.1em;
                     background-color: transparent;
                     outline: none;
                     border: none;

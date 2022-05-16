@@ -415,7 +415,7 @@ a {
   color: #fff;
   border-radius: 40px;
   overflow: hidden;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9));
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), black);
 }
 @media (max-width: 600px) {
   .section-decotarion .section-decotarion__content {
@@ -513,7 +513,6 @@ a {
 .section-form .section-form__content .content__informations .informations__contentext p {
   color: #fff;
   font-size: 1.1em;
-  font-size: 300;
   line-height: 1.5em;
 }
 .section-form .section-form__content .content__informations .informations__cards {
@@ -628,17 +627,14 @@ a {
   padding: 0 10px;
 }
 .section-form .section-form__content .content__form .form__doubleField .doubleField__field input {
-  padding: 5px;
+  padding: 14px 5px 0 0;
   background-color: transparent;
   outline: none;
   border: none;
   color: #fff;
   max-height: 50px;
-}
-@media (max-width: 600px) {
-  .section-form .section-form__content .content__form .form__doubleField .doubleField__field input {
-    font-size: 100%;
-  }
+  width: 100%;
+  font-size: 0.8em;
 }
 .section-form .section-form__content .content__form .form__doubleField .doubleField__field input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
@@ -699,7 +695,6 @@ a {
 }
 .section-form .section-form__content .content__form .form_field input {
   padding: 5px;
-  font-size: 1.1em;
   background-color: transparent;
   outline: none;
   border: none;
@@ -1047,11 +1042,12 @@ a {
   }
 }
 .section-about-travel__content .content__options ul li {
-  width: 16.6666%;
+  width: 12%;
   min-width: 140px;
   color: var(--color-blue);
   padding: 15px 10px;
   border-radius: 10px;
+  margin: 0 5px;
   text-align: center;
   cursor: pointer;
 }
