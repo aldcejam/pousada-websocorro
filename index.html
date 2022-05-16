@@ -51,21 +51,9 @@
                     <div class="menuAndLog__log">
                         <img class="log__img" src="./assets/images/log.svg" alt="">
                     </div>
-                    <div>
-                        <div class="menuAndLog__menu">
-                            <p>
-                                Menu
-                            </p>
-                            <div class="menu_menuBurguer">
-                                <div style="height: 4px; width: 30px; background-color: #fff;"></div>
-                                <div style="height: 4px; width: 30px; background-color: #fff; margin-top: 4px;"></div>
-                                <div style="height: 4px; width: 30px; background-color: #fff; margin-top: 4px;"></div>
-                            </div>
-                        </div>
-                        <ul class="menuAndLog__navBar">
-                            <li><a href="#reserve">Reserve já</a></li>
-                        </ul>
-                    </div>
+                    <a href="#reserve" class="menuAndLog--reserve-ja">
+                        Reserve já
+                    </a>
                 </div>
                 <div class="top__content">
                     <p>Experiência premium para um momento inesquecível
@@ -339,7 +327,7 @@
 
             <section class="section-form">
                 <img src="/assets/images/formulario.jpg" loading="lazy" alt="">
-                <div class="section-form__content container-for-100 box" id="reserve">
+                <div class="section-form__content container-for-100" id="reserve">
                     <div class="content__informations">
                         <div class="informations__contentext">
                             <h2>O presente que todo casal merece</h2>
@@ -351,7 +339,7 @@
                         </div>
 
 
-                        <section class="informations__cards">
+                        <div class="informations__cards">
 
                             <article class="cards__card">
                                 <div class="card__img">
@@ -381,7 +369,7 @@
                                     </p>
                                 </div>
                             </article>
-                        </section>
+                        </div>
                     </div>
 
                     <form action="/cotacao" method="POST" class="content__form ">
@@ -427,13 +415,13 @@
                         </div>
 
 
-                        <div class="form_field w-100">
+                        <div class="form_field" style="margin-top: 20px;">
                             <label for="idade_criancas">Idade das crianças</label>
                             <input type="text" name="age" id="ages" required>
                         </div>
 
 
-                        <div class="form_field">
+                        <div class="form_field--text-area">
                             <label for="message">Mensagem</label>
                             <textarea type="text" name="mensagem" id="message" required></textarea>
                         </div>
@@ -543,15 +531,15 @@
                         <div class="statistic__grades">
                             <div class="statistics__statistic">
                                 <p>5,0 <small>/5</small></small></p>
-                                <img src="/assets/images/tripadvisor.svg" loading="lazy" height="33" alt="">
+                                <img class="tripadvisor" src="/assets/images/tripadvisor.svg" loading="lazy" height="33" alt="">
                             </div>
                             <div class="statistics__statistic">
-                                <p>4,6 <small>/5</small></p>
-                                <img src="/assets/images/google.svg" loading="lazy" height="33" alt="">
+                                <p class="google-text">4,6 <small>/5</small></p>
+                                <img class="google-img" src="/assets/images/google.svg" loading="lazy" height="33" alt="">
                             </div>
                             <div class="statistics__statistic">
-                                <p>9,1 <small>/10</small></p>
-                                <img src="/assets/images/booking.svg" loading="lazy" height="33" alt="">
+                                <p class="booking-text">9,1 <small>/10</small></p>
+                                <img class="booking-img" src="/assets/images/booking.svg" loading="lazy" height="33" alt="">
                             </div>
 
                         </div>
@@ -616,6 +604,10 @@
                 </div>
             </div>
         </footer>
+
+        <!-- ===================================================================== -->
+        <!-- ============================== MODAL ================================ -->
+        <!-- ===================================================================== -->
 
         <div class="illustration--modal">
             <div class="modal--intern">
