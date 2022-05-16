@@ -1,5 +1,4 @@
 {
-    let lastIndex = 0;
     let location = document.querySelectorAll('.locations__location')
     let liAboutTravel = document.querySelectorAll('.options--li-about-travel')
 
