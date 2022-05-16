@@ -14,7 +14,7 @@
     }
 
     .section-form__content {
-        width: min(90vw, 1000px);
+        width: min(90%, 1000px);
         max-width: 1000px;
         display: flex;
         flex-wrap: wrap;
@@ -29,7 +29,7 @@
 
         @media(max-width: 500px) {
             & {
-                width: 100vw;
+                width: 100%;
                 padding: 100px 0px 0;
             }
         }

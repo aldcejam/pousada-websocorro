@@ -102,7 +102,7 @@ a {
   transition: all 0.4s;
 }
 .illustration--modal .modal--intern {
-  width: 90vw;
+  width: 90%;
   height: 100vh;
   position: relative;
   right: 0;
@@ -139,11 +139,11 @@ a {
 }
 .top .top__bgImage {
   position: absolute;
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
 }
 .top .top__bgImage .bgImage__img {
-  width: 100vw;
+  width: 100%;
   max-width: 100%;
   height: 100vh;
   object-fit: cover;
@@ -475,7 +475,7 @@ a {
   object-fit: cover;
 }
 .section-form .section-form__content {
-  width: min(90vw, 1000px);
+  width: min(90%, 1000px);
   max-width: 1000px;
   display: flex;
   flex-wrap: wrap;
@@ -495,7 +495,7 @@ a {
 }
 @media (max-width: 500px) {
   .section-form .section-form__content {
-    width: 100vw;
+    width: 100%;
     padding: 100px 0px 0;
   }
 }
