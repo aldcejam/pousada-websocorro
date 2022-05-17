@@ -504,7 +504,7 @@ a {
 @media (max-width: 500px) {
   .section-form .section-form__content {
     width: 100%;
-    padding: 100px 0px 0;
+    padding: 100px 20px 0;
   }
 }
 .section-form .section-form__content .content__informations {
