@@ -9,7 +9,7 @@ buttonCloseModal.addEventListener('click', ()=>{
 })
 
 
-const buttonOpenModal = document.querySelector('.illustration--mobile-active-3')
+const buttonOpenModal = document.querySelector('.section-illustrations')
 buttonOpenModal.addEventListener('click', ()=>{
     modal.classList.remove('close-modal')
     modal.classList.add('open-modal')
