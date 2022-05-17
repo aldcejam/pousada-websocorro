@@ -102,6 +102,7 @@ a {
   height: 100%;
   background-color: white;
   transition: all 0.4s;
+  overflow-y: scroll;
 }
 .illustration--modal .modal--intern {
   width: min(100%, 900px);
@@ -110,7 +111,6 @@ a {
   right: 0;
   left: 0;
   margin: auto;
-  overflow-y: auto;
 }
 .illustration--modal .modal--intern .modal--intern__header {
   position: fixed;
